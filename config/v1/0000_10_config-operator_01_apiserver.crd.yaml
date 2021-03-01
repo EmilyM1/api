@@ -72,8 +72,8 @@ spec:
                       for write requests (create, update, patch). - AllRequestBodies:
                       like 'WriteRequestBodies', but also logs request and response
                       HTTP payloads for read requests (get, list). - UserRequests:
-                      logs resource requests from system:authenticated:oauth users.
-                      \n If unset, the 'Default' profile is used as the default."
+                      logs resource requests from system:authenticated:oauth users
+                      If unset, the 'Default' profile is used as the default."
                     type: string
                     default: Default
                     enum:
